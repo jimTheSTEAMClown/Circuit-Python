@@ -21,7 +21,7 @@ import neopixel
 # pins for the Neopixels, and the number of neopixels to access.  Returns a 
 # list 'pixels' of indexable neopixles '''
 pixels = neopixel.NeoPixel(board.NEOPIXEL, 3)
-print(type(pixels)
+print(type(pixels))
 while True:
     # indexes the first element of the 'pixels' list and points to the 
     # first Neopixel in the 'pixels' list
